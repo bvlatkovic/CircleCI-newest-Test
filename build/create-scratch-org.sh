@@ -10,3 +10,7 @@ sfdx force:auth:jwt:grant --clientid $SFDC_PROD_CLIENTID --jwtkeyfile keys/serve
 #Create a scratch org
 echo "Creating the Scratch Org..."
 sfdx force:org:create -f config/project-scratch-def.json -a ${CIRCLE_BRANCH} -ss
+sfdx force:org:create -f config/project-scratch-def.json -a ${CIRCLE_BRANCH} -ss
+sfdx force:org:create -f config/project-scratch-def.json -a ${CIRCLE_BRANCH} -ss
+sfdx force:org:create -f config/project-scratch-def.json -a ${CIRCLE_BRANCH} -ss
+sfdx force:org:create -f config/project-scratch-def.json -a ${CIRCLE_BRANCH} -ss
