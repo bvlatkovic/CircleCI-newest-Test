@@ -1,7 +1,65 @@
 {
-    "orgName": "mickwheeler Company",
-    "edition": "Developer",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"]
-    }
-}
+  "orgName": "Demo company",
+  "edition": "Developer",
+  "features": ["Communities", "SocialCustomerService", "MultiCurrency", "FieldAuditTrail","DevelopmentWave","NumPlatformEvents:20", "StateAndCountryPicklist"],
+  "settings": {
+  "quoteSettings": {
+  "enableQuote" : true
+  },
+  "nameSettings": {
+  "enableMiddleName": true,
+  "enableNameSuffix": true
+  },
+  "communitiesSettings": {
+  "enableNetworksEnabled": true,
+  "enableCommunityWorkspaces": true
+  },
+  "accountSettings": {
+  "enableRelateContactToMultipleAccounts": true
+  },
+  "languageSettings": {
+  "enableTranslationWorkbench": true,
+  "enableEndUserLanguages": true,
+  "enablePlatformLanguages": true
+  },
+  "opportunitySettings": {
+  "autoActivateNewReminders": true,
+  "customizableProductSchedulesEnabled": false,
+  "doesEnforceStandardOpportunitySaveLogic": true,
+  "enableFindSimilarOpportunities": false,
+  "enableOpportunityFieldHistoryTracking": true,
+  "enableOpportunityTeam": true,
+  "enableUpdateReminders": true,
+  "promptToAddProducts": false
+  },
+  "territory2Settings": {
+  "enableTerritoryManagement2": true
+  },
+  "lightningExperienceSettings": {
+  "enableS1DesktopEnabled": true
+  },
+  "mobileSettings": {
+  "enableS1EncryptedStoragePref2": false
+  },
+  "experienceBundleSettings": {
+  "enableExperienceBundleMetadata": true
+  },
+  "accountIntelligenceSettings": {
+  "enableNewsStories": true
+  }
+  },
+  "objectSettings": {
+  "opportunity": {
+  "sharingModel": "private"
+  },
+  "account": {
+  "sharingModel": "private"
+  },
+  "contact": {
+  "sharingModel": "private"
+  },
+  "case": {
+  "sharingModel": "private"
+  }
+  }
+  }
