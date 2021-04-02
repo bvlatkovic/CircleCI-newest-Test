@@ -1,6 +1,6 @@
 {
   "orgName": "Demo company",
-  "edition": "Developer",
+  "sourceOrg": "00DB0000000Ybnp",
   "features": ["Communities", "SocialCustomerService", "MultiCurrency", "FieldAuditTrail","DevelopmentWave","NumPlatformEvents:20", "StateAndCountryPicklist"],
   "settings": {
   "quoteSettings": {
